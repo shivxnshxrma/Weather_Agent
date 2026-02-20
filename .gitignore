@@ -1,0 +1,29 @@
+# --- Environment Variables (CRITICAL) ---
+.env
+
+# --- Python ---
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.python-version
+
+# --- Virtual Environments ---
+.venv/
+venv/
+env/
+ENV/
+
+# --- macOS System Files ---
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# --- IDEs ---
+.vscode/
+.idea/
+
+# --- Distribution / Packages ---
+dist/
+build/
+*.egg-info/
