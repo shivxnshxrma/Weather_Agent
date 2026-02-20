@@ -59,4 +59,4 @@ source .venv/bin/activate  # macOS / Linux
 # .venv\Scripts\activate   # Windows
 
 # Install dependencies
-pip install openai python-dotenv requests
+pip install -r requirement.txt
